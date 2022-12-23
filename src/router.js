@@ -6,9 +6,6 @@ const router = express.Router();
 //const trimString = require('./app.js');
 //const truncateSynopsis = require('./app.js');
 
-// import the random file
-const random = require('./random');
-
 //On crée un callback
 router.get('/', async (request, response, next) => {
     //var shortenDes = response.data.attributes.description;

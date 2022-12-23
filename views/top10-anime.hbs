@@ -11,7 +11,7 @@
                 <div class="card-text">
                     <span class="date">{{this.attributes.titles.ja_jp}}</span>
                     <h2>{{this.attributes.canonicalTitle}}</h2>
-                    <p class="description">{{this.attributes.synopsis}} ...</p>
+                    <p class="description">{{trimString this.attributes.synopsis 100}}</p>
                     
                 </div>
                 <div class="card-stats">
